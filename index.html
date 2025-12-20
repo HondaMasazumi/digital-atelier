@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Atelier</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+</head>
+<body>
+  <header class="animate__animated animate__fadeInDown">
+    <div class="header_wrapper">
+      <h1><a href="#top">Digital Atelier</a></h1>
+      <nav>
+        <ul>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="top" class="top">
+      <div class="contents_wrapper contents_top">
+        <div class="wrap">
+          <h1>Digital Atelier</h1>
+          <p>キズキビジネスカレッジで作ったデジタル作品集</p>
+        </div>
+      </div>
+    </section>
+    <section id="profile" class="profile">
+      <div class="contents_wrapper contents_profile">
+
+<!-- プロフィールセクションここから -->
+        <h2 class="profile_h2">Profile</h2>
+        <div class="box_profile">
+          <figure><img src="img/profile.jpg" alt="">
+          </figure>
+          <div class="inroduce">
+            <div class="box">
+              <div class="left">
+              <h3>Name</h3>
+                <dl>
+                <dt>本多正純</dt>
+                <dd>キズキビジネスカレッジ 受講生</dd>
+              </dl>
+               </div>
+              <div class="right">
+                <p>Webと動画編集に興味を持ち、スキルを習得中です。</p>
+                <p>動画編集では、ストーリーテリングや視覚的な表現を通じて、情報を魅力的に伝える力を探求しています。</p>
+                <p>両方の分野でスキルを磨き、クリエイティブなアプローチで新しいプロジェクトに挑戦したいと考えています。</p>
+              </div>
+            </div>
+              <div class="skill">
+                <h3>Skill</h3>
+                <table>
+                  <tr>
+                    <th>HTML/CSS</th>
+                    <td class="rank">★★★★☆</td>
+                    <td>簡単なWebサイトを構築することができる</td>
+                  </tr>
+                  <tr>
+                    <th>JavaScript</th>
+                    <td class="rank">★★★☆☆</td>
+                    <td>簡単なプログラムを構築することができる</td>
+                  </tr>
+                  <tr>
+                    <th>Figma</th>
+                    <td class="rank">★★★★☆</td>
+                    <td>Webページをデザインすることができる</td>
+                  </tr>
+                  <tr>
+                    <th>Illustrator</th>
+                    <td class="rank">★★☆☆☆</td>
+                    <td>アイコンパーツを作成することができる</td>
+                  </tr>
+                  <tr>
+                    <th>Photoshop</th>
+                    <td class="rank">★★★★☆</td>
+                    <td>写真編集ができる</td>
+                  </tr>
+                    <tr>
+                    <th>Premire Pro</th>
+                    <td class="rank">★★☆☆☆</td>
+                    <td>簡単な動画編集と書き出しができる</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="interest">
+                <h3>interest</h3>
+                <ul>
+                  <li>写真</li>
+                  <li>イラスト</li>
+                </ul>
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- プロフィールセクションここまで -->
+
+    <section id="works" class="works">
+  <div class="contents_wrapper contents_works">
+    <h2>Works</h2>
+    <div class="box_works">
+
+      <div class="thumbbox js-modal-open1">
+        <div class="image">
+          <h3>Web</h3>
+          <img src="img/works_web.jpg" alt="Web">
+        </div>
+      </div>
+
+      <div class="thumbbox js-modal-open2">
+        <div class="image">
+          <h3>グラフィック</h3>
+          <div class="img2">
+          <img src="img/works_graphic.svg" alt="Graphic">
+          </div>
+        </div>
+      </div>
+
+      <div class="thumbbox  js-modal-open3">
+        <div class="image">
+          <h3>動画</h3>
+          <img src="img/works_movie.jpg" alt="Movie">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- モーダル本体1 -->
+  <div class="modal js-modal1">
+    <div class="modal-container">
+    <!-- モーダルを閉じるボタン -->
+    <div class="modal-close js-modal-close1">×</div>
+    <!-- モーダル内部のコンテンツ -->
+    <div class="modal-content">
+    <p>Web</p>
+    </div>
+    </div>
+  </div>
+
+    <!-- モーダル本体2 -->
+  <div class="modal js-modal2">
+    <div class="modal-container">
+    <!-- モーダルを閉じるボタン -->
+    <div class="modal-close js-modal-close2">×</div>
+    <!-- モーダル内部のコンテンツ -->
+    <div class="modal-content">
+    <p>グラフィック</p>
+    </div>
+    </div>
+  </div>
+
+    <!-- モーダル本体3 -->
+  <div class="modal js-modal3">
+    <div class="modal-container">
+    <!-- モーダルを閉じるボタン -->
+    <div class="modal-close js-modal-close3">×</div>
+    <!-- モーダル内部のコンテンツ -->
+    <div class="modal-content">
+    <p>動画</p>
+    </div>
+    </div>
+  </div>
+
+</section>
+
+  </main>
+  <footer>
+    <div class="footer_wrapper">
+      <h1>Digital Atelier</h1>
+      <div class="sns">
+        <ul>
+          <li><a href="https://x.com/i/flow/login?lang=ja" target="_blank"><img src="img/x_logo.svg" alt="X"></a></li>
+          <li><a href="https://www.instagram.com/" target="_blank"><img src="img/instagram_logo.svg" alt="Instagram"></a></li>
+        </ul>
+      </div>
+      <small>&copy; Digital Atelier</small>
+    </div>
+
+  </footer>
+  <script>
+    let controller1 = new ScrollMagic.Controller();
+    let Scene1 = new ScrollMagic.Scene
+    ({
+      triggerElement: '.box_profile' ,
+    })
+    .setClassToggle('.box_profile' , 'box_fade')
+    // .addIndicators({ name: 'box_fade'})
+    .addTo(controller1);
+
+    let controller2 = new ScrollMagic.Controller();
+    let Scene2 = new ScrollMagic.Scene
+    ({
+      triggerElement: '.profile_h2' ,
+    })
+    .setClassToggle('.profile_h2' , 'h2_anim')
+    // .addIndicators({ name: '.h2_anim'})
+    .addTo(controller2);
+
+    let controller3 = new ScrollMagic.Controller();
+    let Scene3 = new ScrollMagic.Scene
+    ({
+      triggerElement: '.box_works' ,
+    })
+    .setClassToggle('.box_works' , 'box_fade')
+    // .addIndicators({ name: 'box_fade'})
+    .addTo(controller3);
+
+    //要素を取得1  
+    const modal1 = document.querySelector('.js-modal1'),
+          open1 = document.querySelector('.js-modal-open1'),
+          close1 = document.querySelector('.js-modal-close1');
+
+    //「開くボタン」をクリックしてモーダルを開く
+    function modalOpen1() {
+      modal1.classList.add('is-active');
+    }
+    open1.addEventListener('click', modalOpen1);
+
+    //「閉じるボタン」をクリックしてモーダルを閉じる
+    function modalClose1() {
+      modal1.classList.remove('is-active');
+    }
+    close1.addEventListener('click', modalClose1);
+
+    //「モーダルの外側」をクリックしてモーダルを閉じる
+    function modalOut1(e) {
+      if (e.target == modal1) {
+        modal1.classList.remove('is-active');
+      }
+    }
+    addEventListener('click', modalOut1);
+
+    //要素を取得2  
+      const modal2 = document.querySelector('.js-modal2'),
+      open2 = document.querySelector('.js-modal-open2'),
+      close2 = document.querySelector('.js-modal-close2');
+
+    //「開くボタン」をクリックしてモーダルを開く
+      function modalOpen2() {
+      modal2.classList.add('is-active');
+      }
+      open2.addEventListener('click', modalOpen2);
+
+      //「閉じるボタン」をクリックしてモーダルを閉じる
+      function modalClose2() {
+      modal2.classList.remove('is-active');
+    }
+      close2.addEventListener('click', modalClose2);
+
+      //「モーダルの外側」をクリックしてモーダルを閉じる
+      function modalOut2(e) {
+      if (e.target == modal2) {
+      modal2.classList.remove('is-active');
+      }
+      }
+      addEventListener('click', modalOut2);
+
+    //要素を取得3  
+      const modal3 = document.querySelector('.js-modal3'),
+      open3 = document.querySelector('.js-modal-open3'),
+      close3 = document.querySelector('.js-modal-close3');
+
+      //「開くボタン」をクリックしてモーダルを開く
+      function modalOpen3() {
+      modal3.classList.add('is-active');
+      }
+      open3.addEventListener('click', modalOpen3);
+
+      //「閉じるボタン」をクリックしてモーダルを閉じる
+      function modalClose3() {
+      modal3.classList.remove('is-active');
+      }
+      close3.addEventListener('click', modalClose3);
+
+      //「モーダルの外側」をクリックしてモーダルを閉じる
+      function modalOut3(e) {
+      if (e.target == modal3) {
+      modal3.classList.remove('is-active');
+      }
+      }
+      addEventListener('click', modalOut3);
+
+
+
+    
+  </script>
+</body>
+</html>
