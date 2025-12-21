@@ -25,6 +25,7 @@ font-weight: 100 to 900; */
 body {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 /* header */
@@ -497,7 +498,3 @@ footer {
     padding: 60px 0;
   }
 }
-
-  body {
-    overflow-x: hidden;
-  }
