@@ -189,9 +189,9 @@
   <script>
 let controller1 = new ScrollMagic.Controller();
 let Scene1 = new ScrollMagic.Scene({
-  triggerElement: '.box_profile',
-  triggerHook: 0,
-  offset: -80
+  triggerElement: '#profile',   
+  triggerHook: 0.95,            
+  offset: 0
 })
 .setClassToggle('.box_profile', 'box_fade')
 .addTo(controller1);
