@@ -205,14 +205,14 @@ let Scene1 = new ScrollMagic.Scene({
     // .addIndicators({ name: '.h2_anim'})
     .addTo(controller2);
 
-    let controller3 = new ScrollMagic.Controller();
-    let Scene3 = new ScrollMagic.Scene
-    ({
-      triggerElement: '.box_works' ,
-    })
-    .setClassToggle('.box_works' , 'box_fade')
-    // .addIndicators({ name: 'box_fade'})
-    .addTo(controller3);
+   let controller3 = new ScrollMagic.Controller();
+let Scene3 = new ScrollMagic.Scene({
+  triggerElement: '#works',   
+  triggerHook: 1,             
+  offset: -60                 
+})
+.setClassToggle('.box_works', 'box_fade')
+.addTo(controller3);
 
     //要素を取得1  
     const modal1 = document.querySelector('.js-modal1'),
