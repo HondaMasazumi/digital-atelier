@@ -474,20 +474,4 @@ footer {
   margin: 1em 0;
 }
 
-/* ===== Responsive (SP) ===== */
-@media (max-width: 768px) {
-  :root{
-    --main-minWidth: 0px;
-    --main-padding: 16px;
-  }
 
-  .header_wrapper,
-  .footer_wrapper{
-    min-width: auto;
-    width: 100%;
-  }
-
-  header{
-    width: 100%;
-  }
-}
