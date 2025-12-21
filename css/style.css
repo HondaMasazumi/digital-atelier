@@ -411,6 +411,46 @@ footer {
   padding: 20px;
 }
 
+/* ===== Responsive (SP) ===== */
+@media (max-width: 768px) {
+  :root{
+    --main-minWidth: 0px;
+    --main-padding: 16px;
+  }
+
+  .header_wrapper,
+  .footer_wrapper{
+    min-width: 0;
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  header{
+    width: 100%;
+  }
+
+  .contents_profile{
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .contents_works{
+    flex-direction: column;
+  }
+
+  .contents_works .box_works{
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .contents_works .thumbbox{
+    width: 100%;
+    height: auto;
+  }
+}
+
+
 /* モーダルのコンテンツ部分のテキストの指定 */
 .modal-content p {
   margin: 1em 0;
