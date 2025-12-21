@@ -31,7 +31,7 @@ body {
 header {
   background-color: rgba(62, 84, 124, 0.9);
   position: fixed;
-  width: 100vw;
+  width: 100%;
   z-index: 9999;
 }
 
@@ -40,7 +40,6 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 56px;
-  min-width: var(--main-minWidth);
   max-width: var(--main-maxWidth);
   margin: auto;
   font-family: "Maven Pro", sans-serif;
@@ -298,7 +297,6 @@ footer {
 }
 
 .footer_wrapper {
-  min-width: var(--main-minWidth);
   max-width: var(--main-maxWidth);
   margin: auto;
   padding-bottom: 20px;
