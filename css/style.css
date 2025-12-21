@@ -497,15 +497,6 @@ footer {
     padding: 60px 0;
   }
 }
-@media (max-width: 768px) {
-
-  /* ★ ここが最重要 ★ */
-  .header_wrapper,
-  .footer_wrapper,
-  .contents_wrapper {
-    min-width: auto !important;
-    width: 100%;
-  }
 
   body {
     overflow-x: hidden;
