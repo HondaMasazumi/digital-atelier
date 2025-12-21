@@ -416,35 +416,86 @@ footer {
   margin: 1em 0;
 }
 
-/* ===== Responsive (SP) ===== */
+/* ===== Responsive (SP) 追加調整 ===== */
 @media (max-width: 768px) {
-  :root {
-    --main-minWidth: 0px;
-    --main-padding: 16px;
+
+  /* ヘッダーをスマホ用に */
+  .header_wrapper{
+    height: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
-  .header_wrapper,
-  .footer_wrapper {
-    min-width: 0;
-    width: 100%;
-    padding-left: 12px;
-    padding-right: 12px;
+
+  .header_wrapper h1{
+    font-size: 20px;
   }
-  header {
-    width: 100%;
+
+  .header_wrapper li{
+    font-size: 14px;
+    margin-right: 12px;
   }
-  .contents_profile {
+
+  /* Top */
+  .contents_top h1{
+    font-size: 24px;
+  }
+
+  .contents_top p{
+    font-size: 14px;
+  }
+
+  /* Profile：完全に縦並び */
+  .contents_profile{
     flex-direction: column;
-    align-items: stretch;
   }
-  .contents_works {
+
+  .contents_profile h2{
+    margin: 80px 0 16px;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .contents_profile .box_profile{
+    flex-direction: column;
+    margin: 0 0 40px;
+  }
+
+  .contents_profile figure{
+    margin: 0 auto 16px;
+  }
+
+  .contents_profile .inroduce{
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .contents_profile .inroduce .box{
     flex-direction: column;
   }
-  .contents_works .box_works {
+
+  /* Works：カードを縦に */
+  .contents_works{
+    flex-direction: column;
+  }
+
+  .contents_works h2{
+    margin: 40px 0 16px;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .contents_works .box_works{
     flex-direction: column;
     gap: 16px;
   }
-  .contents_works .thumbbox {
+
+  .contents_works .thumbbox{
     width: 100%;
-    height: auto;
   }
-}/*# sourceMappingURL=style.css.map */
+
+  /* footer */
+  .footer_wrapper h1{
+    font-size: 24px;
+    padding: 60px 0;
+  }
+}
